@@ -1,0 +1,401 @@
+@media only screen and (max-width: 1200px) {
+  .pv28_header {
+    background-position: left center;
+  }
+
+  .pv28_header .grid-120 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pv28_cta {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .pv28_cta img {
+    margin: 0 auto;
+  }
+
+  .pv28_cta .pv28_btn_main {
+    margin: 2.4rem auto;
+  }
+
+  /* blocktwo - pv28 */
+
+  .pv28_blocktwo .grid-120 {
+    flex-direction: column;
+  }
+
+  /* blockthree  pv28*/
+
+  .pv28_blockthree_list_item img {
+    max-width: 17rem;
+  }
+  .pv28_blockthree_list_item:nth-of-type(2) img {
+    max-width: 17rem;
+  }
+}
+
+@media only screen and (max-width: 1048px) {
+  .reuniao_pv6_clock_group img {
+    margin-left: -20rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  /* blockthree */
+  .pv28_blockthree_list_item {
+    gap: 3.6rem;
+  }
+
+  .pv28_blockthree_list_item_text,
+  .pv28_blockthree_list_item:nth-of-type(2) .pv28_blockthree_list_item_text {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .pv28_blockthree_list_item img,
+  .pv28_blockthree_list_item:nth-of-type(2) img {
+    position: static;
+  }
+
+  /* blockfour */
+  .pv28_blockfour .grid-120 {
+    gap: 2rem;
+  }
+
+  .pv28_blockfour .title-lg {
+    font-size: 3.6rem;
+  }
+
+  /* blockeight */
+  .pv28_blockeight .grid-120 {
+    flex-direction: column-reverse;
+  }
+
+  .pv28_blockeight_bio {
+    width: 100%;
+  }
+
+  .foto_expert {
+    width: 100%;
+    max-width: 47rem;
+  }
+
+  .pv28_question_res.open {
+    height: 15rem;
+  }
+
+  /* reuniao_pv6 */
+  .reuniao_pv6_clock_group {
+    flex-direction: column-reverse;
+  }
+
+  .reuniao_pv6_clock_text {
+    text-align: center;
+  }
+
+  .reuniao_pv6_clock_group img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  /* HEADER PV18 */
+  header {
+    min-height: 80vh;
+  }
+
+  header .title-md {
+    font-size: 2.8rem;
+  }
+
+  /* HEADER - PV6 */
+
+  .header_pv6 {
+    min-height: 80vh;
+  }
+
+  .header_pv6 .grid-120 .title-lg {
+    font-size: 3.2rem;
+  }
+
+  /* PV28 BLOCKFOUR */
+
+  .pv28_blockfour .grid-120 {
+    flex-direction: column;
+  }
+
+  .pv28_blockfour_text {
+    width: 100%;
+  }
+
+  .counter_up {
+    width: 100%;
+  }
+
+  .pv28_blockfour .separador_vertical {
+    height: 5rem;
+  }
+
+  /* pv28 blocksix */
+
+  .pv28_blocksix_list_item {
+    width: calc(50% - 3rem);
+  }
+
+  /* pv28 blockseven */
+
+  .pv28_blockseven_garantia {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pv28_blockseven_garantia_text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .pv28_question_res.open {
+    height: 18rem;
+  }
+
+  .pv28_footer_support_text .title-lg {
+    font-size: 2.8rem;
+  }
+
+  .pv28_footer_support_text .title-md {
+    font-size: 2.4rem;
+  }
+
+  /* SOCIAL - PV6 */
+
+  .social_plus_list.pv6 {
+    align-items: center;
+  }
+
+  .social_plus_item_pv6 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social_plus_item_pv6 img {
+    max-width: 36rem;
+  }
+
+  .pv28_faq .grid-120 {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .pv28_question_res.open {
+    height: 16rem;
+  }
+
+  /* SOCIAL - PV18 */
+
+  .social h2,
+  .social-plus h2 {
+    font-size: 4.8rem;
+  }
+
+  .social_plus_wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .social_plus_wrapper:nth-of-type(2) {
+    margin-top: 4.8rem;
+    flex-direction: column-reverse;
+  }
+  .social_plus_wrapper img {
+    position: relative;
+    z-index: 40;
+    margin-left: 0;
+  }
+
+  .social_plus_list_item {
+    margin-top: -8rem;
+  }
+
+  /* reuniao_pv6 */
+
+  .reuniao_pv6_depoimentos_b {
+    flex-direction: column;
+  }
+
+  .reuniao_pv6_depoimentos_b p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .reuniao_pv6_depoimentos_list_03_item
+    + .reuniao_pv6_depoimentos_list_03_item {
+    margin-top: 1.6rem;
+  }
+
+  .reuniao_pv6_sides {
+    justify-content: center;
+  }
+
+  .reuniao_pv6_sides img {
+    width: 100%;
+    max-width: 48rem;
+  }
+
+  /* ANY */
+
+  .copyright {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  /* blockthree */
+  .pv28_blockthree_list_item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pv28_blockthree_list_item:nth-of-type(2) .pv28_blockthree_list_item_text {
+    text-align: center;
+  }
+
+  /* blocksix */
+
+  .pv28_blocksix_title {
+    font-size: 2.4rem;
+  }
+
+  .pv28_blocksix p {
+    font-size: 1.6rem;
+  }
+
+  /* blockseven */
+
+  .price-01 {
+    font-size: 3.4rem;
+  }
+  .price-02 {
+    font-size: 2rem;
+  }
+
+  .price-03 {
+    font-size: 6rem;
+  }
+  .pv28_blockseven_logo_zeus {
+    margin: 3.6rem auto 0;
+  }
+
+  /* footer pv28 */
+  .pv28_footer_support {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  .pv28_footer_support_text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pv28_footer_support_text p + p {
+    margin-top: 1.6rem;
+  }
+
+  .pv28_footer_support_text p + address {
+    margin-top: 1.2rem;
+  }
+
+  .pv28_footer_support_text .title-lg {
+    font-size: 2.4rem;
+  }
+
+  .pv28_footer_support_text .title-md {
+    font-size: 1.8rem;
+  }
+
+  /* ups8 */
+
+  .reuniao_ups8_list_item + .reuniao_ups8_list_item {
+    margin-top: 3.6rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* blocksix */
+  .pv28_blocksix_list_item {
+    width: 100%;
+  }
+
+  /* blockseven */
+  .pv28_blockseven_garantia_text p:nth-of-type(1) {
+    font-size: 2.8rem;
+  }
+
+  .price-01 {
+    font-size: 2.8rem;
+  }
+  .price-02 {
+    font-size: 2rem;
+  }
+  .price-03 {
+    font-size: 4rem;
+  }
+
+  .pv28_question_res.open {
+    height: 18rem;
+  }
+
+  /* reuniao_pv6 */
+  .reuniao_pv6_depoimentos_list_02 {
+    flex-direction: column;
+  }
+
+  .reuniao_pv6_depoimentos_b img,
+  .reuniao_pv6_sides:nth-of-type(2) img {
+    min-width: 100%;
+  }
+
+  /* ups8 */
+
+  .reuniao_ups8 .title-lg {
+    font-size: 3.2rem;
+  }
+  .reuniao_ups8_list_item {
+    text-align: left;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* blocktwo */
+
+  .pv28_blocktwo_text h1 {
+    font-size: 3.2rem;
+  }
+  .pv28_blocktwo_text p {
+    font-size: 2.4rem;
+  }
+  .pv28_blocktwo_text p:nth-child(3) {
+    font-size: 2rem;
+  }
+
+  /* blockthree */
+  .pv28_blockthree .title-md {
+    font-size: 3.2rem;
+  }
+
+  /* reuniao_pv6 */
+
+  .reuniao_pv6_header .title-lg {
+    font-size: 3.6rem;
+  }
+
+  .reuniao_pv6_header.reuniao_ups8 .title-lg {
+    font-size: 2.8rem;
+  }
+}
